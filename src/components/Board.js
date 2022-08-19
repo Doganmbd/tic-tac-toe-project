@@ -21,7 +21,7 @@ export default function Board() {
       setWhoIsWinner(winner[0]);
       setLine(winner[1]);
     }
-  },[] );
+  }, [squares]);
 
   return (
     <div className="board-container">
