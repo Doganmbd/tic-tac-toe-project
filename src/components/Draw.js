@@ -10,7 +10,7 @@ export default function Draw() {
     if (a === false && whoIsWinner === null) {
       setDraw(true);
     }
-  },);
+  }, );
 
   return <h1>{draw ? `NO WINNER` : ""}</h1>;
 }
